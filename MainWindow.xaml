@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Cherednichenko_PR5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="котики UwU" Height="450" Width="800" Background="White">
     <Grid>
-        
+        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="Картинки">
+                <MenuItem x:Name="pict1" Header="Котик" Click="pict1_Click"/>
+                <MenuItem x:Name="pict2" Header="Котичек"/>
+                <MenuItem x:Name="pict3" Header="Котя"/>
+                <MenuItem x:Name="pict4" Header="Киса"/>
+                <MenuItem x:Name="pict5" Header="Мяука"/>
+                <MenuItem x:Name="pict6" Header="Мурыся"/>
+                <MenuItem x:Name="pict7" Header="Дратути"/>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="cat1" Source="Pictures/kitty1.jpg"/>
+        <Image x:Name="cat2" Source="Pictures/kitty2.jpg"/>
+        <Image x:Name="cat3" Source="Pictures/kitty3.jpg"/>
+        <Image x:Name="cat4" Source="Pictures/kitty4.jpg"/>
+        <Image x:Name="cat5" Source="Pictures/kitty5.jpg"/>
+        <Image x:Name="cat6" Source="Pictures/kitty6.jpg"/>
+        <Image x:Name="cat7" Source="Pictures/kitty7.jpg"/>
     </Grid>
 </Window>

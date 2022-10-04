@@ -24,5 +24,10 @@ namespace Wpf_Cherednichenko_PR5
         {
             InitializeComponent();
         }
+
+        private void pict1_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
