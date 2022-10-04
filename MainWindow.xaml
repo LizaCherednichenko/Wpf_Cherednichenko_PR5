@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="котики UwU" Height="450" Width="800" Background="White">
     <Grid>
-        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="146">
-            <MenuItem Header="Картинки">
+        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="146" Background="{x:Null}">
+            <MenuItem Header="Картинки" Height="25" Width="73" Background="#FFDADADA">
                 <MenuItem x:Name="pict1" Header="Котик" Click="pict1_Click"/>
                 <MenuItem x:Name="pict2" Header="Котичек" Click="pict2_Click"/>
                 <MenuItem x:Name="pict3" Header="Котя" Click="pict3_Click"/>
@@ -19,6 +19,8 @@
             </MenuItem>
         </Menu>
         <Image x:Name="img1" Margin="0,25,0,0"/>
-        <Button x:Name="button1" Content="Добавить котика" HorizontalAlignment="Left" Margin="151,-1,0,0" VerticalAlignment="Top" Width="112" Height="26" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Добавить котика" HorizontalAlignment="Left" Margin="674,0,0,0" VerticalAlignment="Top" Width="118" Height="25" Click="button1_Click" Background="#FFDADADA"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="25" Margin="294,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" BorderBrush="Black"/>
+        <Label Content="Введите адрес картинки" HorizontalAlignment="Left" Margin="146,0,0,0" VerticalAlignment="Top" Height="25" Width="148"/>
     </Grid>
 </Window>

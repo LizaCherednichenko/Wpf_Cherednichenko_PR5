@@ -62,7 +62,9 @@ namespace Wpf_Cherednichenko_PR5
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            string a = textbox1.Text;
+            img1.Source = new BitmapImage(new Uri(a));
         }
     }
-}
+    }
+
