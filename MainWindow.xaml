@@ -7,23 +7,18 @@
         mc:Ignorable="d"
         Title="котики UwU" Height="450" Width="800" Background="White">
     <Grid>
-        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="792">
+        <Menu x:Name="menu1" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="146">
             <MenuItem Header="Картинки">
                 <MenuItem x:Name="pict1" Header="Котик" Click="pict1_Click"/>
-                <MenuItem x:Name="pict2" Header="Котичек"/>
-                <MenuItem x:Name="pict3" Header="Котя"/>
-                <MenuItem x:Name="pict4" Header="Киса"/>
-                <MenuItem x:Name="pict5" Header="Мяука"/>
-                <MenuItem x:Name="pict6" Header="Мурыся"/>
-                <MenuItem x:Name="pict7" Header="Дратути"/>
+                <MenuItem x:Name="pict2" Header="Котичек" Click="pict2_Click"/>
+                <MenuItem x:Name="pict3" Header="Котя" Click="pict3_Click"/>
+                <MenuItem x:Name="pict4" Header="Киса" Click="pict4_Click"/>
+                <MenuItem x:Name="pict5" Header="Мяука" Click="pict5_Click"/>
+                <MenuItem x:Name="pict6" Header="Мурыся" Click="pict6_Click"/>
+                <MenuItem x:Name="pict7" Header="Дратути" Click="pict7_Click"/>
             </MenuItem>
         </Menu>
-        <Image x:Name="cat1" Source="Pictures/kitty1.jpg"/>
-        <Image x:Name="cat2" Source="Pictures/kitty2.jpg"/>
-        <Image x:Name="cat3" Source="Pictures/kitty3.jpg"/>
-        <Image x:Name="cat4" Source="Pictures/kitty4.jpg"/>
-        <Image x:Name="cat5" Source="Pictures/kitty5.jpg"/>
-        <Image x:Name="cat6" Source="Pictures/kitty6.jpg"/>
-        <Image x:Name="cat7" Source="Pictures/kitty7.jpg"/>
+        <Image x:Name="img1" Margin="0,25,0,0"/>
+        <Button x:Name="button1" Content="Добавить котика" HorizontalAlignment="Left" Margin="151,-1,0,0" VerticalAlignment="Top" Width="112" Height="26" Click="button1_Click"/>
     </Grid>
 </Window>
